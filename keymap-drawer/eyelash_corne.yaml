@@ -11,7 +11,7 @@ layers:
   - V
   - G
   - C
-  - J
+  - L
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))
   - Z
   - $$mdi:keyboard-tab$$
