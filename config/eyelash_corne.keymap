@@ -61,9 +61,9 @@ ZMK_UNICODE_SINGLE(de_sz, N0, N0, D, F) // ß
         default_layer {
             display-name = "KOY";
             bindings = <
-&kp ESC         &kp K  &kp PERIOD  &kp O            &kp COMMA        &kp Y                                   &kp UP                &kp V  &kp G  &kp C  &kp L  &kp DE_SHARP_S  &kp Z
+&kp ESC         &kp K  &kp PERIOD  &kp O            &kp COMMA        &kp Y                                   &kp UP                &kp V  &kp G  &kp C  &kp L  &de_sz  &kp Z
 &kp TAB         &kp H  &kp A       &kp E            &kp I            &kp U                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp D  &kp T  &kp R  &kp N  &kp S           &kp F
-&kp LEFT_SHIFT  &kp X  &kp Q       &kp DE_A_UMLAUT  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp SPACE              &kp DOWN              &kp B  &kp P  &kp W  &kp M  &kp J           &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp X  &kp Q       &de_ae           &de_ue           &de_oe           &kp SPACE              &kp DOWN              &kp B  &kp P  &kp W  &kp M  &kp J           &kp RIGHT_SHIFT
                                    &kp LCTRL        &kp SPACE        &kp LEFT_GUI                                                  &mo 1  &mo 2  &mo 3
             >;
 
