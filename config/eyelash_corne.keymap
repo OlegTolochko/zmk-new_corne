@@ -53,35 +53,32 @@
         ctrl_del: ctrl_del {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp DELETE>;
+            bindings = <&kp LEFT_CONTROL &kp DELETE>, <&macro_press>;
+
             label = "CTRL_DEL";
         };
 
         ctrl_bsp: ctrl_bsp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp BACKSPACE>;
-            label = "CTRL_BSP";
-        };
+            bindings = <&kp LEFT_CONTROL &kp BACKSPACE>, <&macro_tap>;
 
-        ctrl_layer: ctrl_layer {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&mo 4 &kp LEFT_CONTROL>;
-            label = "CTRL_LAYER";
+            label = "CTRL_BSP";
         };
 
         ctrl_c: ctrl_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp C>;
+            bindings = <&kp LEFT_CONTROL &kp C>, <&macro_press>;
+
             label = "CTRL_C";
         };
 
         ctrl_v: ctrl_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp V>;
+            bindings = <&kp LEFT_CONTROL &kp V>, <&macro_press>;
+
             label = "CTRL_V";
         };
     };
@@ -92,10 +89,10 @@
         default_layer {
             display-name = "KOY";
             bindings = <
-&kp ESC         &kp K  &kp PERIOD  &kp O            &kp COMMA        &kp DE_Y                                &kp UP                &kp V  &kp G  &kp C  &kp L  &kp DE_SHARP_S  &kp DE_Z
-&kp TAB         &kp H  &kp A       &kp E            &kp I            &kp U                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp D  &kp T  &kp R  &kp N  &kp S           &kp F
-&kp LEFT_SHIFT  &kp X  &kp Q       &kp DE_A_UMLAUT  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp SPACE              &kp DOWN              &kp B  &kp P  &kp W  &kp M  &kp J           &kp RIGHT_SHIFT
-                                   &ctrl_layer      &kp SPACE        &kp LEFT_GUI                                                  &mo 1  &mo 2  &mo 3
+&kp ESC         &kp K  &kp PERIOD  &kp O             &kp COMMA        &kp DE_Y                                &kp UP                &kp V  &kp G  &kp C  &kp L  &kp DE_SHARP_S  &kp DE_Z
+&kp TAB         &kp H  &kp A       &kp E             &kp I            &kp U                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp D  &kp T  &kp R  &kp N  &kp S           &kp F
+&kp LEFT_SHIFT  &kp X  &kp Q       &kp DE_A_UMLAUT   &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp SPACE              &kp DOWN              &kp B  &kp P  &kp W  &kp M  &kp J           &kp RIGHT_SHIFT
+                                   &kp LEFT_CONTROL  &kp SPACE        &kp LEFT_GUI                                                  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -128,22 +125,13 @@
         layer_3 {
             display-name = "NUMBER";
             bindings = <
-&studio_unlock  &kp F1  &kp F2        &kp F3        &kp F4        &kp F5                                      &mmv MOVE_UP                     &kp F6  &kp F7        &kp F8  &kp F9      &kp F10  &kp F11
-&kp N0          &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N5  &kp NUMBER_6  &kp N7  &kp N8      &kp N9   &kp F12
-&none           &none   &none         &none         &none         &none         &kp C_MUTE                    &mmv MOVE_DOWN                   &none   &none         &none   &sys_reset  &none    &none
-                                      &none         &none         &none                                                                        &none   &none         &none
+&studio_unlock  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                &mmv MOVE_UP                     &kp F6  &kp F7  &kp F8  &kp F9      &kp F10  &kp F11
+&none           &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N6  &kp N7  &kp N8  &kp N9      &kp N0   &kp F12
+&none           &none   &none   &none   &none   &none   &kp C_MUTE                    &mmv MOVE_DOWN                   &none   &none   &none   &sys_reset  &none    &none
+                                &none   &none   &none                                                                  &none   &none   &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
-        };
-
-        CTRL {
-            bindings = <
-&trans  &kp Q  &kp W  &kp E   &kp R   &kp T                     &kp Y           &kp Y   &kp U   &kp I      &kp O    &kp P     &trans
-&trans  &kp A  &kp S  &kp D   &kp F   &kp G             &trans  &trans  &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
-&trans  &kp Z  &kp X  &kp C   &kp V   &kp B   &trans            &trans          &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
-                      &trans  &trans  &trans                                    &trans  &trans  &trans
-            >;
         };
     };
 };
