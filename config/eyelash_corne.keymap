@@ -10,6 +10,7 @@
 
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/unicode-chars/german.dtsi"
+#include "keys_de.h"
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
