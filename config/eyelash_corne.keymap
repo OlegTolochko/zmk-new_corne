@@ -56,32 +56,29 @@
         ctrl_del: ctrl_del {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp DELETE>, <&macro_press>;
-
+            // Assuming you want a single Ctrl+Delete action
+            bindings = <&macro_tap &kp LEFT_CONTROL &kp DELETE>; 
             label = "CTRL_DEL";
         };
-
+    
         ctrl_bsp: ctrl_bsp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp BACKSPACE>, <&macro_tap>;
-
+            bindings = <&macro_tap &kp LEFT_CONTROL &kp BACKSPACE>; 
             label = "CTRL_BSP";
         };
-
+    
         ctrl_c: ctrl_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp C>, <&macro_press>;
-
+            bindings = <&macro_tap &kp LEFT_CONTROL &kp C>; 
             label = "CTRL_C";
         };
-
+    
         ctrl_v: ctrl_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp V>, <&macro_press>;
-
+            bindings = <&macro_tap &kp LEFT_CONTROL &kp V>; 
             label = "CTRL_V";
         };
     };
