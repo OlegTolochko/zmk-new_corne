@@ -6,14 +6,14 @@ layers:
   - .
   - O
   - {t: ',', s: <}
-  - Y
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
   - $$mdi:arrow-up-bold$$
   - V
   - G
   - C
   - L
-  - '&de_eszett'
-  - Z
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
   - $$mdi:keyboard-tab$$
   - H
   - A
@@ -32,9 +32,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - X
   - Q
-  - '&de_ae'
-  - '&de_ue'
-  - '&de_oe'
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - B
