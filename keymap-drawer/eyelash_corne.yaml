@@ -6,14 +6,14 @@ layers:
   - .
   - O
   - {t: ',', s: <}
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
+  - Y
   - $$mdi:arrow-up-bold$$
   - V
   - G
   - C
   - L
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
+  - Z
   - $$mdi:keyboard-tab$$
   - H
   - A
