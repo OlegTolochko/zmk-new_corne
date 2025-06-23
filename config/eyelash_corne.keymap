@@ -121,9 +121,9 @@
         lower_layer {
             display-name = "NAV";
             bindings = <
-&none           &kp PAGE_UP  &kp BSPC  &kp UP            &kp DELETE  &kp PAGE_DOWN                           &mmv MOVE_UP                     &none  &ctrl_v       &ctrl_c    &ctrl_del  &none          &none
-&none           &kp HOME     &kp LEFT  &kp DOWN          &kp RIGHT   &kp END                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp TAB       &kp ENTER  &ctrl_bsp  &kp BACKSPACE  &none
-&kp LEFT_SHIFT  &none        &none     &none             &none       &none          &none                    &mmv MOVE_DOWN                   &none  &kp LEFT_GUI  &none      &none      &none          &kp RIGHT_SHIFT
+&none           &kp PAGE_UP  &kp BSPC  &kp UP            &kp DELETE  &kp PAGE_DOWN                           &mmv MOVE_UP                     &none  &kp LC(V)     &kp LC(C)  &kp LC(DELETE)  &none          &none
+&none           &kp HOME     &kp LEFT  &kp DOWN          &kp RIGHT   &kp END                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp TAB       &kp ENTER  &kp LC(BSPC)    &kp BACKSPACE  &none
+&kp LEFT_SHIFT  &none        &none     &none             &none       &none          &none                    &mmv MOVE_DOWN                   &none  &kp LEFT_GUI  &none      &none           &none          &kp RIGHT_SHIFT
                                        &kp LEFT_CONTROL  &kp SPACE   &kp LEFT_GUI                                                             &none  &none         &none
             >;
 
