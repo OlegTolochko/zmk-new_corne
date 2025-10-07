@@ -2,11 +2,11 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   KOY:
   - $$mdi:keyboard-esc$$
-  - K
-  - .
-  - O
-  - {t: ',', s: <}
-  - Y
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD O))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
   - $$mdi:arrow-up-bold$$
   - V
   - G
@@ -15,7 +15,7 @@ layers:
   - '&de_eszett'
   - Z
   - SYMBOL
-  - H
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))
   - A
   - E
   - I
@@ -32,9 +32,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - X
   - Q
-  - '&de_ae'
-  - '&de_ue'
-  - '&de_oe'
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - B
@@ -51,8 +51,8 @@ layers:
   - NUMBER
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ., s: '>'}
-  - _
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - ^
@@ -64,8 +64,8 @@ layers:
   - '&'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {type: held}
-  - {t: \, s: '|'}
-  - {t: /, s: '?'}
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
   - '{'
   - '}'
   - '*'
