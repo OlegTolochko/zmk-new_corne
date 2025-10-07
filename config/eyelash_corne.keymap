@@ -141,20 +141,20 @@
         macos_layer {
             display-name = "KOY (Mac)";
             bindings = <
-&kp ESC         &kp DE_K  &kp DE_PERIOD  &kp DE_O      &kp DE_COMMA  &kp DE_Y                                    &kp UP                &kp DE_V  &kp DE_G  &kp DE_C  &kp DE_L  &kp DE_ESZETT  &kp DE_Z
-&mo 1           &kp DE_H  &kp DE_A       &kp DE_E      &kp DE_I      &kp DE_U                          &kp LEFT  &kp ENTER  &kp RIGHT  &kp DE_D  &kp DE_T  &kp DE_R  &kp DE_N  &kp DE_S       &kp DE_F
-&kp LEFT_SHIFT  &kp DE_X  &kp DE_Q       &kp DE_AE     &kp DE_UE     &kp DE_OE         &kp SPACE                 &kp DOWN              &kp DE_B  &kp DE_P  &kp DE_W  &kp DE_M  &kp DE_J       &kp RIGHT_SHIFT
-                                         &kp LEFT_GUI  &kp SPACE     &kp LEFT_CONTROL                                                  &mo 5     &mo 6     &mo 7
+&kp ESC         &kp DE_K  &kp DE_PERIOD  &kp DE_O         &kp DE_COMMA     &kp DE_Y                                 &kp UP                &kp DE_V  &kp DE_G  &kp DE_C  &kp DE_L  &kp DE_ESZETT  &kp DE_Z
+&mo 1           &kp DE_H  &kp DE_A       &kp DE_E         &kp DE_I         &kp DE_U                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp DE_D  &kp DE_T  &kp DE_R  &kp DE_N  &kp DE_S       &kp DE_F
+&kp LEFT_SHIFT  &kp DE_X  &kp DE_Q       &kp DE_A_UMLAUT  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT   &kp SPACE              &kp DOWN              &kp DE_B  &kp DE_P  &kp DE_W  &kp DE_M  &kp DE_J       &kp RIGHT_SHIFT
+                                         &kp LEFT_GUI     &kp SPACE        &kp LEFT_CONTROL                                               &mo 5     &mo 6     &mo 7
             >;
         };
 
         macos_symbol {
             display-name = "SYMBOL (Mac)";
             bindings = <
-&trans          &kp DE_DOT        &kp DE_UNDERSCORE  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_CARET                                   &mmv MOVE_UP                     &kp DE_EXCLAMATION  &kp DE_LESS_THAN         &kp DE_GREATER_THAN       &kp DE_EQUAL  &kp DE_AMPERSAND  &kp BSPC
-&trans          &kp DE_BACKSLASH  &kp DE_SLASH       &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE    &kp DE_ASTERISK                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DE_QUESTION     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_MINUS  &kp DE_COLON      &kp DE_AT_SIGN
-&kp LEFT_SHIFT  &kp DE_HASH       &kp DE_DOLLAR      &kp DE_PIPE          &kp DE_TILDE          &kp DE_GRAVE         &trans                    &mmv MOVE_DOWN                   &kp DE_PLUS         &kp DE_PERCENT           &kp DE_DOUBLE_QUOTES      &kp DE_SQT    &kp DE_SEMICOLON  &kp RIGHT_SHIFT
-                                                     &kp LEFT_GUI         &kp SPACE             &kp LEFT_CONTROL                                                                &trans              &trans                   &trans
+&trans          &kp DE_DOT        &kp DE_UNDERSCORE  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_CARET                                &mmv MOVE_UP                     &kp DE_EXCLAMATION  &kp DE_LESS_THAN         &kp DE_GREATER_THAN       &kp DE_EQUAL  &kp DE_AMPERSAND  &kp BSPC
+&trans          &kp DE_BACKSLASH  &kp DE_SLASH       &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE    &kp DE_ASTERISK             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DE_QUESTION     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_MINUS  &kp DE_COLON      &kp DE_AT_SIGN
+&kp LEFT_SHIFT  &kp DE_HASH       &kp DE_DOLLAR      &kp DE_PIPE          &kp DE_TILDE          &kp DE_GRAVE      &trans                    &mmv MOVE_DOWN                   &kp DE_PLUS         &kp DE_PERCENT           &kp DE_DOUBLE_QUOTES      &kp DE_SQT    &kp DE_SEMICOLON  &kp RIGHT_SHIFT
+                                                     &kp LEFT_GUI         &kp SPACE             &kp LEFT_CONTROL                                                             &trans              &trans                   &trans
             >;
         };
 
