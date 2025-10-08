@@ -179,7 +179,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - RGB TOG
   - {t: KOY, h: toggle}
-  - {t: KOY (Mac), h: toggle}
+  - {t: KOY M, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:bluetooth-off$$
   - $$mdi:volume-off$$
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  KOY (Mac):
+  KOY M:
   - $$mdi:keyboard-esc$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
@@ -242,10 +242,10 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
-  - SYMBOL (Mac)
-  - NAV (Mac)
+  - SYMBOL M
+  - NAV M
   - NUMBER M
-  SYMBOL (Mac):
+  SYMBOL M:
   - {t: '$$mdi:transfer$$', type: trans}
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
@@ -294,7 +294,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  NAV (Mac):
+  NAV M:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -375,7 +375,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - RGB TOG
   - {t: KOY, h: toggle}
-  - {t: KOY (Mac), h: toggle}
+  - {t: KOY M, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:bluetooth-off$$
   - $$mdi:volume-off$$

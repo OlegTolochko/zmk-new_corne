@@ -1330,9 +1330,9 @@ rect.held, rect.combo.held {
 <g transform="translate(196, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#KOY-Mac">
+<a href="#KOY-M">
 <text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-1.2em">KOY</tspan><tspan x="0" dy="1.2em">(Mac)</tspan>
+<tspan x="0" dy="-1.2em">KOY</tspan><tspan x="0" dy="1.2em">M</tspan>
 </text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
@@ -1422,8 +1422,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1274)" class="layer-KOY (Mac)">
-<text x="0" y="28" class="label" id="KOY-Mac">KOY (Mac):</text>
+<g transform="translate(40, 1274)" class="layer-KOY M">
+<text x="0" y="28" class="label" id="KOY-M">KOY M:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1718,17 +1718,17 @@ rect.held, rect.combo.held {
 <g transform="translate(632, 224) rotate(-24.0)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#SYMBOL-Mac">
+<a href="#SYMBOL-M">
 <text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-0.6em">SYMBOL</tspan><tspan x="0" dy="1.2em">(Mac)</tspan>
+<tspan x="0" dy="-0.6em">SYMBOL</tspan><tspan x="0" dy="1.2em">M</tspan>
 </text>
 </a></g>
 <g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#NAV-Mac">
+<a href="#NAV-M">
 <text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-0.6em">NAV</tspan><tspan x="0" dy="1.2em">(Mac)</tspan>
+<tspan x="0" dy="-0.6em">NAV</tspan><tspan x="0" dy="1.2em">M</tspan>
 </text>
 </a></g>
 <g transform="translate(756, 203)" class="key keypos-47">
@@ -1741,8 +1741,8 @@ rect.held, rect.combo.held {
 </a></g>
 </g>
 </g>
-<g transform="translate(40, 1592)" class="layer-SYMBOL (Mac)">
-<text x="0" y="28" class="label" id="SYMBOL-Mac">SYMBOL (Mac):</text>
+<g transform="translate(40, 1592)" class="layer-SYMBOL M">
+<text x="0" y="28" class="label" id="SYMBOL-M">SYMBOL M:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -2051,8 +2051,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1911)" class="layer-NAV (Mac)">
-<text x="0" y="28" class="label" id="NAV-Mac">NAV (Mac):</text>
+<g transform="translate(40, 1911)" class="layer-NAV M">
+<text x="0" y="28" class="label" id="NAV-M">NAV M:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
@@ -2482,9 +2482,9 @@ rect.held, rect.combo.held {
 <g transform="translate(196, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#KOY-Mac">
+<a href="#KOY-M">
 <text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-1.2em">KOY</tspan><tspan x="0" dy="1.2em">(Mac)</tspan>
+<tspan x="0" dy="-1.2em">KOY</tspan><tspan x="0" dy="1.2em">M</tspan>
 </text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
