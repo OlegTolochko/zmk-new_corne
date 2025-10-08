@@ -131,7 +131,7 @@
             bindings = <
 &studio_unlock  &kp F1           &kp F2  &kp F3            &kp F4  &kp F5                                      &mmv MOVE_UP                     &kp F6  &kp F7  &kp F8      &kp F9        &kp F10       &kp F11
 &none           &kp N1           &kp N2  &kp N3            &kp N4  &kp N5                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N6  &kp N7  &kp N8      &kp N9        &kp N0        &kp F12
-&kp LEFT_SHIFT  &rgb_ug RGB_TOG  &to 0   &to 4             &none   &bt BT_CLR    &kp C_MUTE                    &mmv MOVE_DOWN                   &none   &none   &bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1  &kp LEFT_SHIFT
+&kp LEFT_SHIFT  &rgb_ug RGB_TOG  &tog 0  &tog 4            &none   &bt BT_CLR    &kp C_MUTE                    &mmv MOVE_DOWN                   &none   &none   &bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1  &kp LEFT_SHIFT
                                          &kp LEFT_CONTROL  &none   &kp LEFT_GUI                                                                 &none   &none   &none
             >;
 
@@ -139,7 +139,7 @@
         };
 
         macos_layer {
-            display-name = "KOY (Mac)";
+            display-name = "KOY M";
             bindings = <
 &kp ESC         &kp DE_K  &kp DE_PERIOD  &kp DE_O         &kp DE_COMMA     &kp DE_Y                                 &kp UP                &kp DE_V  &kp DE_G  &kp DE_C  &kp DE_L  &kp DE_ESZETT  &kp DE_Z
 &mo 1           &kp DE_H  &kp DE_A       &kp DE_E         &kp DE_I         &kp DE_U                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp DE_D  &kp DE_T  &kp DE_R  &kp DE_N  &kp DE_S       &kp DE_F
@@ -149,7 +149,7 @@
         };
 
         macos_symbol {
-            display-name = "SYMBOL (Mac)";
+            display-name = "SYMBOL M";
             bindings = <
 &trans          &kp DE_DOT        &kp DE_UNDERSCORE  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_CARET                                &mmv MOVE_UP                     &kp DE_EXCLAMATION  &kp DE_LESS_THAN         &kp DE_GREATER_THAN       &kp DE_EQUAL  &kp DE_AMPERSAND  &kp BSPC
 &trans          &kp DE_BACKSLASH  &kp DE_SLASH       &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE    &kp DE_ASTERISK             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DE_QUESTION     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_MINUS  &kp DE_COLON      &kp DE_AT_SIGN
@@ -159,7 +159,7 @@
         };
 
         macos_nav {
-            display-name = "NAV (Mac)";
+            display-name = "NAV M";
             bindings = <
 &none           &kp PAGE_UP  &kp BSPC  &kp UP        &kp DELETE  &kp PAGE_DOWN                              &mmv MOVE_UP                     &none  &kp LG(DE_V)  &kp LG(DE_C)  &kp LA(DELETE)  &none          &none
 &none           &kp HOME     &kp LEFT  &kp DOWN      &kp RIGHT   &kp END                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp TAB       &kp ENTER     &kp LA(BSPC)    &kp BACKSPACE  &none
@@ -173,7 +173,7 @@
             bindings = <
 &studio_unlock  &kp F1           &kp F2  &kp F3        &kp F4  &kp F5                                          &mmv MOVE_UP                     &kp F6  &kp F7  &kp F8      &kp F9        &kp F10       &kp F11
 &none           &kp N1           &kp N2  &kp N3        &kp N4  &kp N5                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N6  &kp N7  &kp N8      &kp N9        &kp N0        &kp F12
-&kp LEFT_SHIFT  &rgb_ug RGB_TOG  &to 0   &to 4         &none   &bt BT_CLR        &kp C_MUTE                    &mmv MOVE_DOWN                   &none   &none   &bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1  &kp LEFT_SHIFT
+&kp LEFT_SHIFT  &rgb_ug RGB_TOG  &tog 0  &tog 4        &none   &bt BT_CLR        &kp C_MUTE                    &mmv MOVE_DOWN                   &none   &none   &bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1  &kp LEFT_SHIFT
                                          &kp LEFT_GUI  &none   &kp LEFT_CONTROL                                                                 &none   &none   &none
             >;
 
