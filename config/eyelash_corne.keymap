@@ -142,7 +142,7 @@
             display-name = "KOY M";
             bindings = <
 &kp ESC         &kp DE_K  &kp DE_PERIOD  &kp DE_O         &kp DE_COMMA     &kp DE_Y                                 &kp UP                &kp DE_V  &kp DE_G  &kp DE_C  &kp DE_L  &kp DE_ESZETT  &kp DE_Z
-&mo 1           &kp DE_H  &kp DE_A       &kp DE_E         &kp DE_I         &kp DE_U                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp DE_D  &kp DE_T  &kp DE_R  &kp DE_N  &kp DE_S       &kp DE_F
+&mo 5           &kp DE_H  &kp DE_A       &kp DE_E         &kp DE_I         &kp DE_U                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp DE_D  &kp DE_T  &kp DE_R  &kp DE_N  &kp DE_S       &kp DE_F
 &kp LEFT_SHIFT  &kp DE_X  &kp DE_Q       &kp DE_A_UMLAUT  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT   &kp SPACE              &kp DOWN              &kp DE_B  &kp DE_P  &kp DE_W  &kp DE_M  &kp DE_J       &kp RIGHT_SHIFT
                                          &kp LEFT_GUI     &kp SPACE        &kp LEFT_CONTROL                                               &mo 5     &mo 6     &mo 7
             >;
