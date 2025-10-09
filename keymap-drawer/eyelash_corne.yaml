@@ -210,7 +210,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
-  - SYMBOL
+  - SYMBOL M
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD A))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
@@ -259,7 +259,7 @@ layers:
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS)))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 6 AND CARET)))
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
@@ -291,7 +291,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV M:
